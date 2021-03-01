@@ -1,0 +1,42 @@
+[RemoteTestNG] detected TestNG version 7.3.0//here the order of execution is on alpabeticalorder only @test case are here
+i am at 4th position
+i am at last position
+closing of the browser
+i am at 1st position
+launching of the browser
+i am at5th position
+i am at 2nd position
+   
+   [RemoteTestNG] detected TestNG version 7.3.0//after using Aftertest and before test and @test case
+i am at 1st position
+launching of the browser
+i am at 4th position
+i am at5th position
+i am at 2nd position
+i am at last position
+closing of the browser
+
+[RemoteTestNG] detected TestNG version 7.3.0//using @BeforeMethod this method will execute each and every time before any method execution
+i am at 4th position
+i am at last position
+closing of the browser
+i am at 4th position
+i am at 1st position
+launching of the browser
+i am at 4th position
+i am at5th position
+i am at 4th position
+i am at 2nd position
+
+[RemoteTestNG] detected TestNG version 7.3.@aftermethod it will execute after each and every method
+i am at 4th position
+i am at last position
+closing of the browser
+i am at 2nd position
+i am at 4th position
+i am at 1st position
+launching of the browser
+i am at 2nd position
+i am at 4th position
+i am at5th position
+i am at 2nd position

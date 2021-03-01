@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Nandansuite">
+<groups>
+<run>
+<include name="smoke"/>
+</run>
+</groups>
+<listeners>
+<listener class-name="Listenerpackage.Listernerclass"/>
+</listeners>
+
+
+<parameter name="Url" value ="ravi.com"/>
+<!--  - - - - - - - - - - - - - -  Mobile Test module   - - - - - - - - - - - - - - -                                          -->
+  <test  name="mobilemodule">
+ 
+  
+    <classes>
+      <class name="testNg.testNgclass">
+      <methods>
+       <include name="close"/>
+      <exclude name="mobileTest"/>
+     
+      </methods>
+      </class>
+    </classes>
+  
+  </test> <!-- Test -->
+  
+   <!--  - - - - - - - - - - - - - -  Api Test module   - - - - - - - - - - - - - - -                                          -->
+  
+  <test name="apitresting">
+  <classes>
+  <class name="testNg.apiclass">
+  <methods>
+  
+  </methods>
+  </class>
+  </classes>
+  </test>
+  
+  <!--  - - - - - - - - - - - - - -  Selenium Test module   - - - - - - - - - - - - - - -                                          -->
+  <test name="seleniumtresting">
+  <classes>
+  <class name="testNg.seleniumclass">
+  <methods>
+  </methods>
+  </class>
+  </classes>
+  </test>
+  
+</suite> <!-- Suite -->

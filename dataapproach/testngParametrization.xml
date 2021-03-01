@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="url" value="ravi.com"/>
+<parameter name="Password" value="i am Boss"/>
+
+  <test  name="parametization">
+    <classes>
+      <class name="testNg1.Parametristation"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

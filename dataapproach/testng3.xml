@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Nandansuite">
+
+<!--  - - - - - - - - - - - - - -  Mobile Test module   - - - - - - - - - - - - - - -                                          -->
+  <test  name="mobilemodule">
+  
+      
+    <classes>
+      <class name="testNg.DataProviderAnnotation">
+     
+      </class>
+    </classes>
+  </test> <!-- Test -->
+  
+   <!--  - - - - - - - - - - - - - -  Api Test module   - - - - - - - - - - - - - - -                                          -->
+  
+ 
+     
+     
+  
+  <!--  - - - - - - - - - - - - - -  Selenium Test module   - - - - - - - - - - - - - - -                                          -->
+ 
+  
+</suite> <!-- Suite -->
